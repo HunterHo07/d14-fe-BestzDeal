@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main Screen -->
+  <rect x="100" y="80" width="300" height="240" rx="20" fill="#1A1A2E"/>
+  <rect x="100" y="80" width="300" height="240" rx="20" stroke="#63FFDA" stroke-width="2"/>
+  
+  <!-- Screen Header -->
+  <text x="150" y="110" font-family="Arial" font-size="16" font-weight="bold" fill="white">Compare Offers</text>
+  <text x="150" y="130" font-family="Arial" font-size="12" fill="#CCCCCC">Gaming Laptop, $1000-$1500, Seattle</text>
+  
+  <!-- Offer 1 -->
+  <rect x="120" y="150" width="260" height="60" rx="8" fill="#2A2A3E"/>
+  <circle cx="145" cy="180" r="15" fill="#FF6584"/>
+  <text x="140" y="185" font-family="Arial" font-size="12" font-weight="bold" fill="#1A1A2E">TS</text>
+  <text x="170" y="170" font-family="Arial" font-size="14" font-weight="bold" fill="white">TechStore</text>
+  <text x="170" y="190" font-family="Arial" font-size="12" fill="#CCCCCC">$1,299 - ASUS ROG - 4.8★</text>
+  <text x="300" y="180" font-family="Arial" font-size="14" font-weight="bold" fill="#FF6584">$1,299</text>
+  
+  <!-- Offer 2 - Highlighted -->
+  <rect x="120" y="220" width="260" height="60" rx="8" fill="#63FFDA" fill-opacity="0.1"/>
+  <rect x="120" y="220" width="260" height="60" rx="8" stroke="#63FFDA" stroke-width="2"/>
+  <circle cx="145" cy="250" r="15" fill="#63FFDA"/>
+  <text x="140" y="255" font-family="Arial" font-size="12" font-weight="bold" fill="#1A1A2E">GS</text>
+  <text x="170" y="240" font-family="Arial" font-size="14" font-weight="bold" fill="white">GameStation</text>
+  <text x="170" y="260" font-family="Arial" font-size="12" fill="#CCCCCC">$1,199 - MSI GF65 - 4.7★</text>
+  <text x="300" y="250" font-family="Arial" font-size="14" font-weight="bold" fill="#63FFDA">$1,199</text>
+  
+  <!-- Offer 3 -->
+  <rect x="120" y="290" width="260" height="60" rx="8" fill="#2A2A3E"/>
+  <circle cx="145" cy="320" r="15" fill="#6C63FF"/>
+  <text x="140" y="325" font-family="Arial" font-size="12" font-weight="bold" fill="#1A1A2E">EC</text>
+  <text x="170" y="310" font-family="Arial" font-size="14" font-weight="bold" fill="white">ElectroCity</text>
+  <text x="170" y="330" font-family="Arial" font-size="12" fill="#CCCCCC">$1,349 - Acer Predator - 4.9★</text>
+  <text x="300" y="320" font-family="Arial" font-size="14" font-weight="bold" fill="#6C63FF">$1,349</text>
+  
+  <!-- Comparison Chart -->
+  <rect x="420" y="150" width="60" height="200" rx="8" fill="#2A2A3E"/>
+  
+  <!-- Chart Bars -->
+  <rect x="430" y="160" width="40" height="50" rx="4" fill="#FF6584" opacity="0.8"/>
+  <rect x="430" y="220" width="40" height="70" rx="4" fill="#63FFDA" opacity="0.8"/>
+  <rect x="430" y="300" width="40" height="40" rx="4" fill="#6C63FF" opacity="0.8"/>
+  
+  <!-- Price Labels -->
+  <text x="450" y="185" font-family="Arial" font-size="10" font-weight="bold" fill="white" text-anchor="middle">$1,299</text>
+  <text x="450" y="255" font-family="Arial" font-size="10" font-weight="bold" fill="white" text-anchor="middle">$1,199</text>
+  <text x="450" y="320" font-family="Arial" font-size="10" font-weight="bold" fill="white" text-anchor="middle">$1,349</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="120" r="10" fill="#63FFDA" opacity="0.5"/>
+  <circle cx="420" cy="100" r="15" fill="#6C63FF" opacity="0.5"/>
+  <circle cx="70" cy="350" r="8" fill="#FF6584" opacity="0.5"/>
+  
+  <!-- Comparison Lines -->
+  <line x1="390" y1="180" x2="430" y2="185" stroke="#FF6584" stroke-width="2" stroke-dasharray="4 2"/>
+  <line x1="390" y1="250" x2="430" y2="255" stroke="#63FFDA" stroke-width="2" stroke-dasharray="4 2"/>
+  <line x1="390" y1="320" x2="430" y2="320" stroke="#6C63FF" stroke-width="2" stroke-dasharray="4 2"/>
+  
+  <!-- Selection Indicator -->
+  <circle cx="110" cy="250" r="5" fill="#63FFDA">
+    <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+</svg>

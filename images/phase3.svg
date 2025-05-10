@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <rect x="25" y="25" width="250" height="150" rx="15" fill="#1A1A2E"/>
+  
+  <!-- Phase Title -->
+  <text x="150" y="50" font-family="Arial" font-size="16" font-weight="bold" fill="#63FFDA" text-anchor="middle">Phase 3: Full Marketplace</text>
+  
+  <!-- Payment Interface -->
+  <rect x="50" y="70" width="100" height="80" rx="5" fill="#2A2A3E"/>
+  <rect x="50" y="70" width="100" height="15" rx="5" fill="#63FFDA"/>
+  
+  <!-- Payment Form -->
+  <rect x="60" y="95" width="80" height="10" rx="2" fill="#3A3A4E"/>
+  <text x="70" y="102" font-family="Arial" font-size="6" fill="#CCCCCC">Card Number</text>
+  
+  <rect x="60" y="110" width="35" height="10" rx="2" fill="#3A3A4E"/>
+  <text x="70" y="117" font-family="Arial" font-size="6" fill="#CCCCCC">MM/YY</text>
+  
+  <rect x="105" y="110" width="35" height="10" rx="2" fill="#3A3A4E"/>
+  <text x="115" y="117" font-family="Arial" font-size="6" fill="#CCCCCC">CVC</text>
+  
+  <rect x="60" y="125" width="80" height="10" rx="2" fill="#3A3A4E"/>
+  <text x="70" y="132" font-family="Arial" font-size="6" fill="#CCCCCC">Name on Card</text>
+  
+  <rect x="60" y="140" width="40" height="10" rx="5" fill="#63FFDA"/>
+  <text x="80" y="147" font-family="Arial" font-size="6" fill="#1A1A2E" text-anchor="middle">PAY</text>
+  
+  <!-- Secure Badge -->
+  <circle cx="200" cy="80" r="15" fill="#2A2A3E"/>
+  <path d="M200 70 L200 75 M195 75 L205 75 M195 75 C195 80, 197 85, 200 85 C203 85, 205 80, 205 75" stroke="#63FFDA" stroke-width="1.5"/>
+  <text x="200" y="100" font-family="Arial" font-size="8" fill="#63FFDA" text-anchor="middle">SECURE</text>
+  
+  <!-- Tracking Elements -->
+  <rect x="180" y="120" width="80" height="50" rx="5" fill="#2A2A3E"/>
+  <path d="M190 145 L210 145 L220 135 L240 135 L250 145" stroke="#63FFDA" stroke-width="2"/>
+  <circle cx="190" cy="145" r="4" fill="#63FFDA"/>
+  <circle cx="220" cy="135" r="4" fill="#63FFDA"/>
+  <circle cx="250" cy="145" r="4" fill="#63FFDA"/>
+  <text x="190" y="155" font-family="Arial" font-size="6" fill="#CCCCCC">Order</text>
+  <text x="220" y="155" font-family="Arial" font-size="6" fill="#CCCCCC">Shipped</text>
+  <text x="250" y="155" font-family="Arial" font-size="6" fill="#CCCCCC">Delivered</text>
+  
+  <!-- Status Badge -->
+  <rect x="210" y="40" width="60" height="20" rx="10" fill="#6C63FF"/>
+  <text x="240" y="55" font-family="Arial" font-size="10" fill="white" text-anchor="middle">PLANNED</text>
+  
+  <!-- Connection Lines -->
+  <path d="M150 110 C 160 110, 170 115, 180 120" stroke="#63FFDA" stroke-width="1" stroke-dasharray="2 2"/>
+  <path d="M200 95 C 200 100, 200 110, 200 120" stroke="#63FFDA" stroke-width="1" stroke-dasharray="2 2"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="30" cy="30" r="5" fill="#6C63FF" fill-opacity="0.5"/>
+  <circle cx="270" cy="30" r="5" fill="#FF6584" fill-opacity="0.5"/>
+  <circle cx="30" cy="170" r="5" fill="#63FFDA" fill-opacity="0.5"/>
+  <circle cx="270" cy="170" r="5" fill="#FFC107" fill-opacity="0.5"/>
+</svg>

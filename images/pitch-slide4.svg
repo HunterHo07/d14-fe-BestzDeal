@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <rect x="50" y="50" width="300" height="200" rx="20" fill="#1A1A2E"/>
+  
+  <!-- Market Size Chart -->
+  <rect x="80" y="100" width="60" height="120" rx="5" fill="#6C63FF" fill-opacity="0.2"/>
+  <rect x="80" y="140" width="60" height="80" fill="#6C63FF"/>
+  <text x="110" y="180" font-family="Arial" font-size="12" fill="white" text-anchor="middle">$5.7T</text>
+  <text x="110" y="230" font-family="Arial" font-size="10" fill="white" text-anchor="middle">E-commerce</text>
+  
+  <rect x="160" y="100" width="60" height="120" rx="5" fill="#FF6584" fill-opacity="0.2"/>
+  <rect x="160" y="160" width="60" height="60" fill="#FF6584"/>
+  <text x="190" y="190" font-family="Arial" font-size="12" fill="white" text-anchor="middle">78%</text>
+  <text x="190" y="230" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Compare Prices</text>
+  
+  <rect x="240" y="100" width="60" height="120" rx="5" fill="#63FFDA" fill-opacity="0.2"/>
+  <rect x="240" y="180" width="60" height="40" fill="#63FFDA"/>
+  <text x="270" y="200" font-family="Arial" font-size="12" fill="white" text-anchor="middle">31.7M</text>
+  <text x="270" y="230" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Small Businesses</text>
+  
+  <!-- Growth Curve -->
+  <path d="M80 80 C 120 80, 160 70, 200 60 C 240 50, 280 30, 320 20" stroke="#6C63FF" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Growth Points -->
+  <circle cx="80" cy="80" r="5" fill="#6C63FF"/>
+  <circle cx="140" cy="75" r="5" fill="#6C63FF"/>
+  <circle cx="200" cy="60" r="5" fill="#6C63FF"/>
+  <circle cx="260" cy="40" r="5" fill="#6C63FF"/>
+  <circle cx="320" cy="20" r="5" fill="#6C63FF"/>
+  
+  <!-- Title -->
+  <text x="200" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Market Opportunity</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="40" cy="40" r="10" fill="#FF6584" fill-opacity="0.5"/>
+  <circle cx="360" cy="40" r="10" fill="#6C63FF" fill-opacity="0.5"/>
+  <circle cx="40" cy="260" r="10" fill="#63FFDA" fill-opacity="0.5"/>
+  <circle cx="360" cy="260" r="10" fill="#FF6584" fill-opacity="0.5"/>
+  
+  <!-- Dollar Signs -->
+  <text x="60" cy="70" font-family="Arial" font-size="16" fill="#6C63FF" text-anchor="middle">$</text>
+  <text x="340" cy="70" font-family="Arial" font-size="16" fill="#6C63FF" text-anchor="middle">$</text>
+  <text x="70" cy="90" font-family="Arial" font-size="20" fill="#6C63FF" text-anchor="middle">$</text>
+  <text x="330" cy="90" font-family="Arial" font-size="20" fill="#6C63FF" text-anchor="middle">$</text>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="200" cy="150" r="120" fill="#6C63FF" fill-opacity="0.05"/>
+  <circle cx="200" cy="150" r="80" fill="#6C63FF" fill-opacity="0.1"/>
+  
+  <!-- Logo -->
+  <rect x="160" y="70" width="80" height="80" rx="20" fill="#6C63FF"/>
+  <path d="M200 90L220 110H210V130H190V110H180L200 90Z" fill="white"/>
+  <path d="M200 130L180 110H190V90H210V110H220L200 130Z" fill="white"/>
+  
+  <!-- Text "BestzDeal" -->
+  <text x="200" y="180" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">BestzDeal</text>
+  
+  <!-- Subtitle -->
+  <text x="200" y="210" font-family="Arial" font-size="16" fill="#CCCCCC" text-anchor="middle">The Reverse Marketplace</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="50" r="10" fill="#FF6584" fill-opacity="0.5"/>
+  <circle cx="300" cy="50" r="15" fill="#63FFDA" fill-opacity="0.5"/>
+  <circle cx="80" cy="250" r="20" fill="#6C63FF" fill-opacity="0.3"/>
+  <circle cx="320" cy="250" r="12" fill="#FF6584" fill-opacity="0.4"/>
+  
+  <!-- Arrows -->
+  <path d="M50 150 C 80 120, 120 120, 150 150" stroke="#6C63FF" stroke-width="2" stroke-dasharray="4 2"/>
+  <path d="M250 150 C 280 120, 320 120, 350 150" stroke="#6C63FF" stroke-width="2" stroke-dasharray="4 2"/>
+  
+  <!-- Buyer Icon -->
+  <circle cx="50" cy="150" r="20" fill="#6C63FF"/>
+  <circle cx="50" cy="145" r="5" fill="#1A1A2E"/>
+  <path d="M40 160C40 155 45 152 50 152C55 152 60 155 60 160" fill="#1A1A2E"/>
+  
+  <!-- Seller Icon -->
+  <circle cx="350" cy="150" r="20" fill="#FF6584"/>
+  <circle cx="350" cy="145" r="5" fill="#1A1A2E"/>
+  <path d="M340 160C340 155 345 152 350 152C355 152 360 155 360 160" fill="#1A1A2E"/>
+</svg>
