@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <rect x="25" y="25" width="250" height="150" rx="15" fill="#1A1A2E"/>
+  
+  <!-- Phase Title -->
+  <text x="150" y="50" font-family="Arial" font-size="16" font-weight="bold" fill="#6C63FF" text-anchor="middle">Phase 4: Platform Expansion</text>
+  
+  <!-- Mobile App -->
+  <rect x="50" y="70" width="40" height="80" rx="5" fill="#2A2A3E"/>
+  <rect x="50" y="70" width="40" height="10" rx="5" fill="#6C63FF"/>
+  <rect x="55" y="85" width="30" height="5" rx="1" fill="#3A3A4E"/>
+  <rect x="55" y="95" width="30" height="5" rx="1" fill="#3A3A4E"/>
+  <rect x="55" y="105" width="30" height="5" rx="1" fill="#3A3A4E"/>
+  <rect x="55" y="115" width="15" height="5" rx="1" fill="#6C63FF"/>
+  <circle cx="70" cy="140" r="5" fill="#3A3A4E"/>
+  
+  <!-- AI Matching -->
+  <circle cx="120" cy="110" r="25" fill="#2A2A3E"/>
+  <path d="M110 110 L130 110 M120 100 L120 120" stroke="#FFC107" stroke-width="2"/>
+  <path d="M105 95 C 110 90, 130 90, 135 95" stroke="#FFC107" stroke-width="1"/>
+  <path d="M105 125 C 110 130, 130 130, 135 125" stroke="#FFC107" stroke-width="1"/>
+  <text x="120" y="140" font-family="Arial" font-size="8" fill="#FFC107" text-anchor="middle">AI MATCHING</text>
+  
+  <!-- Analytics Dashboard -->
+  <rect x="180" y="70" width="80" height="80" rx="5" fill="#2A2A3E"/>
+  <rect x="180" y="70" width="80" height="15" rx="5" fill="#6C63FF"/>
+  <text x="220" y="80" font-family="Arial" font-size="8" fill="white" text-anchor="middle">ANALYTICS</text>
+  
+  <!-- Chart Elements -->
+  <path d="M190 120 L260 120" stroke="#3A3A4E" stroke-width="1"/>
+  <path d="M190 120 L190 90" stroke="#3A3A4E" stroke-width="1"/>
+  
+  <path d="M190 120 L200 110 L210 115 L220 100 L230 105 L240 90 L250 95" stroke="#6C63FF" stroke-width="2"/>
+  <circle cx="200" cy="110" r="3" fill="#6C63FF"/>
+  <circle cx="220" cy="100" r="3" fill="#6C63FF"/>
+  <circle cx="240" cy="90" r="3" fill="#6C63FF"/>
+  
+  <rect x="190" y="130" width="15" height="10" rx="2" fill="#6C63FF"/>
+  <rect x="210" y="130" width="15" height="10" rx="2" fill="#FF6584"/>
+  <rect x="230" y="130" width="15" height="10" rx="2" fill="#63FFDA"/>
+  
+  <!-- Status Badge -->
+  <rect x="210" y="40" width="60" height="20" rx="10" fill="#6C63FF"/>
+  <text x="240" y="55" font-family="Arial" font-size="10" fill="white" text-anchor="middle">PLANNED</text>
+  
+  <!-- Connection Lines -->
+  <path d="M90 110 C 95 110, 95 110, 95 110" stroke="#6C63FF" stroke-width="1" stroke-dasharray="2 2"/>
+  <path d="M145 110 C 160 110, 170 110, 180 110" stroke="#6C63FF" stroke-width="1" stroke-dasharray="2 2"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="30" cy="30" r="5" fill="#6C63FF" fill-opacity="0.5"/>
+  <circle cx="270" cy="30" r="5" fill="#FF6584" fill-opacity="0.5"/>
+  <circle cx="30" cy="170" r="5" fill="#63FFDA" fill-opacity="0.5"/>
+  <circle cx="270" cy="170" r="5" fill="#FFC107" fill-opacity="0.5"/>
+</svg>

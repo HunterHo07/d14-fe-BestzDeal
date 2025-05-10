@@ -1,0 +1,114 @@
+.buttonLink {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  user-select: none;
+}
+
+.border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(108, 99, 255, 0.5),
+    rgba(108, 99, 255, 0.2) 25%,
+    rgba(108, 99, 255, 0) 50%,
+    rgba(108, 99, 255, 0.2) 75%,
+    rgba(108, 99, 255, 0.5)
+  );
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.glow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(108, 99, 255, 0.8) 0%, rgba(108, 99, 255, 0) 70%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* Variants */
+.primary {
+  background: rgba(108, 99, 255, 0.1);
+  color: white;
+}
+
+.primary:hover {
+  background: rgba(108, 99, 255, 0.2);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--primary);
+}
+
+.secondary:hover {
+  background: rgba(108, 99, 255, 0.05);
+}
+
+.accent {
+  background: rgba(99, 255, 218, 0.1);
+  color: var(--accent);
+}
+
+.accent:hover {
+  background: rgba(99, 255, 218, 0.2);
+}
+
+.danger {
+  background: rgba(255, 82, 82, 0.1);
+  color: var(--error);
+}
+
+.danger:hover {
+  background: rgba(255, 82, 82, 0.2);
+}
+
+/* Sizes */
+.small {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.medium {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.large {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}

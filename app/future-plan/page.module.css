@@ -1,0 +1,352 @@
+.futurePlanPage {
+  padding: 120px 0 80px;
+  min-height: 100vh;
+  background: var(--background);
+}
+
+.futurePlanHeader {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  padding: 0 2rem;
+}
+
+.futurePlanHeader h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: 1.5rem;
+}
+
+.futurePlanHeader p {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  color: var(--foreground-muted);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionHeader h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1rem;
+}
+
+.sectionHeader p {
+  font-size: 1.2rem;
+  color: var(--foreground-muted);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Timeline Section */
+.timelineSection {
+  padding: 6rem 0;
+  position: relative;
+}
+
+.timelineContainer {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.timelineLine {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  background: linear-gradient(to bottom, var(--primary), var(--secondary), var(--accent));
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 8rem;
+  z-index: 2;
+}
+
+.timelineItem:last-child {
+  margin-bottom: 0;
+}
+
+.timelinePoint {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-50%);
+  z-index: 3;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.timelinePoint.primary {
+  background: rgba(108, 99, 255, 0.2);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.timelinePoint.secondary {
+  background: rgba(255, 101, 132, 0.2);
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
+}
+
+.timelinePoint.accent {
+  background: rgba(99, 255, 218, 0.2);
+  color: var(--accent);
+  border: 2px solid var(--accent);
+}
+
+.timelineContent {
+  width: 45%;
+  position: relative;
+}
+
+.timelineContent.left {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.timelineContent.right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.phaseCard {
+  padding: 2rem;
+}
+
+.phaseHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.phaseHeader h2 {
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem;
+}
+
+.phaseTimeline {
+  font-size: 1rem;
+  color: var(--foreground-muted);
+  margin: 0;
+}
+
+.phaseStatus {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.phaseStatus.completed {
+  background: rgba(76, 175, 80, 0.2);
+  color: #4CAF50;
+}
+
+.phaseStatus.in {
+  background: rgba(255, 193, 7, 0.2);
+  color: #FFC107;
+}
+
+.phaseStatus.planned {
+  background: rgba(108, 99, 255, 0.2);
+  color: var(--primary);
+}
+
+.phaseDescription {
+  font-size: 1.1rem;
+  color: var(--foreground-muted);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.phaseFeatures h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.phaseFeatures ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 2rem;
+}
+
+.phaseFeatures li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--foreground-muted);
+}
+
+.phaseFeatures li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.phaseImage {
+  text-align: center;
+}
+
+.phaseImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Future Features Section */
+.futureFeaturesSection {
+  padding: 6rem 0;
+  background: var(--background-light);
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.featureCard {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.featureIcon.primary {
+  background: rgba(108, 99, 255, 0.1);
+  color: var(--primary);
+}
+
+.featureIcon.secondary {
+  background: rgba(255, 101, 132, 0.1);
+  color: var(--secondary);
+}
+
+.featureIcon.accent {
+  background: rgba(99, 255, 218, 0.1);
+  color: var(--accent);
+}
+
+.featureCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.featureCard p {
+  color: var(--foreground-muted);
+  line-height: 1.6;
+}
+
+/* Vision Section */
+.visionSection {
+  padding: 6rem 0;
+}
+
+.visionCard {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.visionContent h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 2rem;
+}
+
+.visionText {
+  font-size: 1.2rem;
+  color: var(--foreground-muted);
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.7;
+}
+
+.visionCta {
+  margin-top: 3rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .timelineLine {
+    left: 30px;
+  }
+  
+  .timelinePoint {
+    left: 30px;
+    transform: none;
+  }
+  
+  .timelineContent {
+    width: auto;
+    margin-left: 80px !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .phaseHeader {
+    flex-direction: column;
+  }
+  
+  .phaseStatus {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .futurePlanHeader h1 {
+    font-size: 2rem;
+  }
+  
+  .futurePlanHeader p {
+    font-size: 1rem;
+  }
+  
+  .sectionHeader h2 {
+    font-size: 1.8rem;
+  }
+  
+  .timelinePoint {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .timelineContent {
+    margin-left: 60px !important;
+  }
+  
+  .phaseHeader h2 {
+    font-size: 1.5rem;
+  }
+  
+  .featureIcon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+}

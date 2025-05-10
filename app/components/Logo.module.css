@@ -1,0 +1,138 @@
+.logoLink {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logoBg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(108, 99, 255, 0.2) 0%, rgba(108, 99, 255, 0) 70%);
+  border-radius: 50%;
+  transform-origin: center;
+}
+
+.logoSquare {
+  position: relative;
+  background: var(--primary);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.logoArrowUp {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 12px solid white;
+  top: 25%;
+  transform: translateY(-50%);
+}
+
+.logoArrowDown {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid white;
+  bottom: 25%;
+  transform: translateY(50%);
+}
+
+.logoText {
+  margin-left: 10px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.logoTextBestz {
+  color: var(--primary);
+}
+
+.logoTextDeal {
+  color: white;
+}
+
+/* Size variants */
+.small .logoSquare {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.small .logoArrowUp,
+.small .logoArrowDown {
+  border-left-width: 5px;
+  border-right-width: 5px;
+}
+
+.small .logoArrowUp {
+  border-bottom-width: 8px;
+}
+
+.small .logoArrowDown {
+  border-top-width: 8px;
+}
+
+.small .logoText {
+  font-size: 1rem;
+}
+
+.medium .logoSquare {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.medium .logoArrowUp,
+.medium .logoArrowDown {
+  border-left-width: 6px;
+  border-right-width: 6px;
+}
+
+.medium .logoArrowUp {
+  border-bottom-width: 10px;
+}
+
+.medium .logoArrowDown {
+  border-top-width: 10px;
+}
+
+.medium .logoText {
+  font-size: 1.25rem;
+}
+
+.large .logoSquare {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+}
+
+.large .logoArrowUp,
+.large .logoArrowDown {
+  border-left-width: 8px;
+  border-right-width: 8px;
+}
+
+.large .logoArrowUp {
+  border-bottom-width: 12px;
+}
+
+.large .logoArrowDown {
+  border-top-width: 12px;
+}
+
+.large .logoText {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,336 @@
+.whyUsPage {
+  padding: 120px 0 80px;
+  min-height: 100vh;
+  background: var(--background);
+}
+
+.whyUsHeader {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  padding: 0 2rem;
+}
+
+.whyUsHeader h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: 1.5rem;
+}
+
+.whyUsHeader p {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  color: var(--foreground-muted);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionHeader h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1rem;
+}
+
+.sectionHeader p {
+  font-size: 1.2rem;
+  color: var(--foreground-muted);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Competitors Section */
+.competitorsSection {
+  padding: 6rem 0;
+  background: var(--background-light);
+}
+
+.competitorsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.competitorCard {
+  height: 100%;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.highlightCard {
+  border: 2px solid var(--primary);
+}
+
+.highlightBadge {
+  position: absolute;
+  top: 1.5rem;
+  right: -3rem;
+  background: var(--primary);
+  color: white;
+  padding: 0.5rem 3rem;
+  transform: rotate(45deg);
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 10px rgba(108, 99, 255, 0.3);
+}
+
+.competitorHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.competitorHeader h3 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.founded {
+  font-size: 0.9rem;
+  color: var(--foreground-muted);
+}
+
+.competitorModel {
+  font-size: 1.1rem;
+  color: var(--foreground-muted);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.competitorDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.competitorSection h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.competitorList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.competitorList li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--foreground-muted);
+}
+
+.competitorList li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.competitorFee {
+  font-size: 0.95rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.competitorFee span {
+  font-weight: 600;
+}
+
+/* Advantages Section */
+.advantagesSection {
+  padding: 6rem 0;
+}
+
+.advantagesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.advantageCard {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.advantageIcon {
+  font-size: 2.5rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.advantageIcon.primary {
+  background: rgba(108, 99, 255, 0.1);
+  color: var(--primary);
+}
+
+.advantageIcon.secondary {
+  background: rgba(255, 101, 132, 0.1);
+  color: var(--secondary);
+}
+
+.advantageIcon.accent {
+  background: rgba(99, 255, 218, 0.1);
+  color: var(--accent);
+}
+
+.advantageCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.advantageCard p {
+  color: var(--foreground-muted);
+  line-height: 1.6;
+}
+
+/* Testimonials Section */
+.testimonialsSection {
+  padding: 6rem 0;
+  background: var(--background-light);
+}
+
+.testimonialsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 3rem;
+}
+
+.testimonialContainer {
+  height: 100%;
+}
+
+.testimonialCard {
+  height: 100%;
+  padding: 2.5rem;
+}
+
+.testimonialContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.testimonialQuote {
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+
+.testimonialQuote svg {
+  margin-bottom: 1rem;
+}
+
+.testimonialQuote p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-style: italic;
+  color: var(--foreground);
+}
+
+.testimonialAuthor {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.testimonialImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--background-light);
+}
+
+.testimonialInfo h4 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.testimonialInfo p {
+  margin: 0;
+  color: var(--foreground-muted);
+  font-size: 0.9rem;
+}
+
+/* CTA Section */
+.ctaSection {
+  padding: 6rem 0;
+}
+
+.ctaCard {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.ctaContent h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1.5rem;
+}
+
+.ctaContent p {
+  font-size: 1.2rem;
+  color: var(--foreground-muted);
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .competitorDetails {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .testimonialsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .whyUsHeader h1 {
+    font-size: 2rem;
+  }
+  
+  .whyUsHeader p {
+    font-size: 1rem;
+  }
+  
+  .sectionHeader h2 {
+    font-size: 1.8rem;
+  }
+  
+  .competitorHeader h3 {
+    font-size: 1.5rem;
+  }
+  
+  .advantageIcon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+}

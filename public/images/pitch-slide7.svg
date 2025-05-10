@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <rect x="50" y="50" width="300" height="200" rx="20" fill="#1A1A2E"/>
+  
+  <!-- Team Members -->
+  <circle cx="120" cy="100" r="30" fill="#6C63FF" fill-opacity="0.2"/>
+  <text x="120" y="105" font-family="Arial" font-size="16" font-weight="bold" fill="#6C63FF" text-anchor="middle">JD</text>
+  <text x="120" y="140" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Jane Doe</text>
+  <text x="120" y="155" font-family="Arial" font-size="10" fill="#CCCCCC" text-anchor="middle">CEO</text>
+  <text x="120" y="170" font-family="Arial" font-size="8" fill="#CCCCCC" text-anchor="middle">Ex-Amazon</text>
+  
+  <circle cx="200" cy="100" r="30" fill="#FF6584" fill-opacity="0.2"/>
+  <text x="200" y="105" font-family="Arial" font-size="16" font-weight="bold" fill="#FF6584" text-anchor="middle">JS</text>
+  <text x="200" y="140" font-family="Arial" font-size="12" fill="white" text-anchor="middle">John Smith</text>
+  <text x="200" y="155" font-family="Arial" font-size="10" fill="#CCCCCC" text-anchor="middle">CTO</text>
+  <text x="200" y="170" font-family="Arial" font-size="8" fill="#CCCCCC" text-anchor="middle">Ex-Shopify</text>
+  
+  <circle cx="280" cy="100" r="30" fill="#63FFDA" fill-opacity="0.2"/>
+  <text x="280" y="105" font-family="Arial" font-size="16" font-weight="bold" fill="#63FFDA" text-anchor="middle">SJ</text>
+  <text x="280" y="140" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Sarah Johnson</text>
+  <text x="280" y="155" font-family="Arial" font-size="10" fill="#CCCCCC" text-anchor="middle">COO</text>
+  <text x="280" y="170" font-family="Arial" font-size="8" fill="#CCCCCC" text-anchor="middle">Ex-eBay</text>
+  
+  <circle cx="120" cy="200" r="30" fill="#FFC107" fill-opacity="0.2"/>
+  <text x="120" y="205" font-family="Arial" font-size="16" font-weight="bold" fill="#FFC107" text-anchor="middle">MB</text>
+  <text x="120" y="240" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Michael Brown</text>
+  <text x="120" y="255" font-family="Arial" font-size="10" fill="#CCCCCC" text-anchor="middle">CMO</text>
+  <text x="120" y="270" font-family="Arial" font-size="8" fill="#CCCCCC" text-anchor="middle">Ex-Etsy</text>
+  
+  <!-- Team Experience -->
+  <rect x="200" y="190" width="140" height="70" rx="10" fill="#2A2A3E"/>
+  <text x="270" y="210" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Combined Experience</text>
+  <text x="270" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="#6C63FF" text-anchor="middle">35+ Years</text>
+  <text x="270" y="250" font-family="Arial" font-size="10" fill="#CCCCCC" text-anchor="middle">in E-commerce & Marketplaces</text>
+  
+  <!-- Connection Lines -->
+  <line x1="150" y1="100" x2="170" y2="100" stroke="#6C63FF" stroke-width="1" stroke-dasharray="2 2"/>
+  <line x1="230" y1="100" x2="250" y2="100" stroke="#6C63FF" stroke-width="1" stroke-dasharray="2 2"/>
+  <line x1="120" y1="130" x2="120" y2="170" stroke="#6C63FF" stroke-width="1" stroke-dasharray="2 2"/>
+  <line x1="200" y1="130" x2="200" y2="170" stroke="#6C63FF" stroke-width="1" stroke-dasharray="2 2"/>
+  <line x1="280" y1="130" x2="280" y2="170" stroke="#6C63FF" stroke-width="1" stroke-dasharray="2 2"/>
+  <line x1="120" y1="230" x2="120" y2="170" stroke="#6C63FF" stroke-width="1" stroke-dasharray="2 2"/>
+  <line x1="150" y1="200" x2="190" y2="200" stroke="#6C63FF" stroke-width="1" stroke-dasharray="2 2"/>
+  
+  <!-- Title -->
+  <text x="200" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">The Team</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="40" cy="40" r="10" fill="#6C63FF" fill-opacity="0.5"/>
+  <circle cx="360" cy="40" r="10" fill="#FF6584" fill-opacity="0.5"/>
+  <circle cx="40" cy="260" r="10" fill="#63FFDA" fill-opacity="0.5"/>
+  <circle cx="360" cy="260" r="10" fill="#FFC107" fill-opacity="0.5"/>
+</svg>

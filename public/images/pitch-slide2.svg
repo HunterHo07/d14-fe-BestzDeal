@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <rect x="50" y="50" width="300" height="200" rx="20" fill="#1A1A2E"/>
+  
+  <!-- Problem Icons -->
+  <circle cx="100" cy="100" r="30" fill="#FF6584" fill-opacity="0.1"/>
+  <text x="100" y="110" font-family="Arial" font-size="24" font-weight="bold" fill="#FF6584" text-anchor="middle">⏱️</text>
+  <text x="100" y="150" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Time Wasted</text>
+  
+  <circle cx="200" cy="100" r="30" fill="#FF6584" fill-opacity="0.1"/>
+  <text x="200" y="110" font-family="Arial" font-size="24" font-weight="bold" fill="#FF6584" text-anchor="middle">🔍</text>
+  <text x="200" y="150" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Hidden Options</text>
+  
+  <circle cx="300" cy="100" r="30" fill="#FF6584" fill-opacity="0.1"/>
+  <text x="300" y="110" font-family="Arial" font-size="24" font-weight="bold" fill="#FF6584" text-anchor="middle">💰</text>
+  <text x="300" y="150" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Higher Prices</text>
+  
+  <!-- Frustrated Buyer -->
+  <circle cx="100" cy="200" r="25" fill="#6C63FF"/>
+  <circle cx="100" cy="195" r="8" fill="#1A1A2E"/>
+  <path d="M90 210C90 205 95 202 100 202C105 202 110 205 110 210" fill="#1A1A2E" transform="rotate(180 100 206)"/>
+  
+  <!-- Thought Bubbles -->
+  <circle cx="140" cy="180" r="5" fill="white" fill-opacity="0.3"/>
+  <circle cx="150" cy="170" r="8" fill="white" fill-opacity="0.3"/>
+  <circle cx="165" cy="160" r="12" fill="white" fill-opacity="0.3"/>
+  
+  <!-- Shopping Sites -->
+  <rect x="180" y="180" width="40" height="40" rx="5" fill="#2A2A3E"/>
+  <text x="200" y="205" font-family="Arial" font-size="20" font-weight="bold" fill="#FF6584" text-anchor="middle">A</text>
+  
+  <rect x="230" y="180" width="40" height="40" rx="5" fill="#2A2A3E"/>
+  <text x="250" y="205" font-family="Arial" font-size="20" font-weight="bold" fill="#63FFDA" text-anchor="middle">B</text>
+  
+  <rect x="280" y="180" width="40" height="40" rx="5" fill="#2A2A3E"/>
+  <text x="300" y="205" font-family="Arial" font-size="20" font-weight="bold" fill="#6C63FF" text-anchor="middle">C</text>
+  
+  <!-- Confusion Lines -->
+  <path d="M125 190 C 140 180, 160 180, 175 190" stroke="#FF6584" stroke-width="2" stroke-dasharray="4 2"/>
+  <path d="M125 200 C 140 210, 210 210, 225 200" stroke="#FF6584" stroke-width="2" stroke-dasharray="4 2"/>
+  <path d="M125 195 C 140 185, 260 185, 275 195" stroke="#FF6584" stroke-width="2" stroke-dasharray="4 2"/>
+  
+  <!-- Title -->
+  <text x="200" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">The Problem</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="40" cy="40" r="10" fill="#FF6584" fill-opacity="0.5"/>
+  <circle cx="360" cy="40" r="10" fill="#63FFDA" fill-opacity="0.5"/>
+  <circle cx="40" cy="260" r="10" fill="#6C63FF" fill-opacity="0.5"/>
+  <circle cx="360" cy="260" r="10" fill="#FF6584" fill-opacity="0.5"/>
+</svg>

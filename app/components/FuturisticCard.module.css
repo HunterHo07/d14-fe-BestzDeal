@@ -1,0 +1,119 @@
+.card {
+  position: relative;
+  background: rgba(26, 26, 46, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  z-index: 1;
+  transform-style: preserve-3d;
+}
+
+.cardBorder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(108, 99, 255, 0.5),
+    rgba(108, 99, 255, 0.2) 25%,
+    rgba(108, 99, 255, 0) 50%,
+    rgba(108, 99, 255, 0.2) 75%,
+    rgba(108, 99, 255, 0.5)
+  );
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.cardGlow {
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  background: radial-gradient(
+    circle at center,
+    rgba(108, 99, 255, 0.15) 0%,
+    rgba(108, 99, 255, 0) 70%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: -2;
+}
+
+.card:hover .cardGlow {
+  opacity: 1;
+}
+
+.cardContent {
+  position: relative;
+  z-index: 1;
+}
+
+/* Color variants */
+.primary .cardBorder {
+  background: linear-gradient(
+    135deg,
+    rgba(108, 99, 255, 0.5),
+    rgba(108, 99, 255, 0.2) 25%,
+    rgba(108, 99, 255, 0) 50%,
+    rgba(108, 99, 255, 0.2) 75%,
+    rgba(108, 99, 255, 0.5)
+  );
+}
+
+.primary .cardGlow {
+  background: radial-gradient(
+    circle at center,
+    rgba(108, 99, 255, 0.15) 0%,
+    rgba(108, 99, 255, 0) 70%
+  );
+}
+
+.secondary .cardBorder {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 101, 132, 0.5),
+    rgba(255, 101, 132, 0.2) 25%,
+    rgba(255, 101, 132, 0) 50%,
+    rgba(255, 101, 132, 0.2) 75%,
+    rgba(255, 101, 132, 0.5)
+  );
+}
+
+.secondary .cardGlow {
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 101, 132, 0.15) 0%,
+    rgba(255, 101, 132, 0) 70%
+  );
+}
+
+.accent .cardBorder {
+  background: linear-gradient(
+    135deg,
+    rgba(99, 255, 218, 0.5),
+    rgba(99, 255, 218, 0.2) 25%,
+    rgba(99, 255, 218, 0) 50%,
+    rgba(99, 255, 218, 0.2) 75%,
+    rgba(99, 255, 218, 0.5)
+  );
+}
+
+.accent .cardGlow {
+  background: radial-gradient(
+    circle at center,
+    rgba(99, 255, 218, 0.15) 0%,
+    rgba(99, 255, 218, 0) 70%
+  );
+}

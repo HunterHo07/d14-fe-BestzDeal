@@ -1,0 +1,380 @@
+.demoPage {
+  padding: 120px 0 80px;
+  min-height: 100vh;
+  background: var(--background);
+}
+
+.demoHeader {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  padding: 0 2rem;
+}
+
+.demoHeader h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.demoHeader p {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  color: var(--foreground-muted);
+}
+
+.demoModeSwitch {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.demoModeButton {
+  padding: 0.8rem 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 30px;
+  color: var(--foreground-muted);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.demoModeButton.active {
+  background: var(--primary);
+  color: white;
+  box-shadow: 0 5px 15px rgba(108, 99, 255, 0.3);
+}
+
+.demoContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.demoControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  gap: 2rem;
+}
+
+.arrowButton {
+  background: rgba(108, 99, 255, 0.1);
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--primary);
+  transition: all 0.3s ease;
+}
+
+.arrowButton:hover {
+  background: rgba(108, 99, 255, 0.2);
+  transform: scale(1.1);
+}
+
+.stepIndicators {
+  display: flex;
+  gap: 1rem;
+}
+
+.stepIndicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.stepIndicator.active {
+  transform: scale(1.3);
+}
+
+.stepIndicator.primary {
+  background: rgba(108, 99, 255, 0.3);
+}
+
+.stepIndicator.primary.active {
+  background: var(--primary);
+}
+
+.stepIndicator.secondary {
+  background: rgba(255, 101, 132, 0.3);
+}
+
+.stepIndicator.secondary.active {
+  background: var(--secondary);
+}
+
+.stepIndicator.accent {
+  background: rgba(99, 255, 218, 0.3);
+}
+
+.stepIndicator.accent.active {
+  background: var(--accent);
+}
+
+.demoContent {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
+
+.demoStep {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.demoStepContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  gap: 4rem;
+}
+
+.demoStepInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.stepNumber {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.stepNumber.primary {
+  background: rgba(108, 99, 255, 0.1);
+  color: var(--primary);
+}
+
+.stepNumber.secondary {
+  background: rgba(255, 101, 132, 0.1);
+  color: var(--secondary);
+}
+
+.stepNumber.accent {
+  background: rgba(99, 255, 218, 0.1);
+  color: var(--accent);
+}
+
+.demoStepInfo h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.demoStepInfo p {
+  font-size: 1.2rem;
+  color: var(--foreground-muted);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.demoStepImage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demoStepImage img {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+}
+
+.demoExamples {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  margin-bottom: 5rem;
+}
+
+.demoExamples h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.examplesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.exampleCard {
+  height: 100%;
+  padding: 2rem;
+}
+
+.exampleHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.exampleIcon {
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  background: rgba(108, 99, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exampleHeader h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.exampleRequest {
+  font-style: italic;
+  color: var(--foreground-muted);
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border-left: 3px solid var(--primary);
+}
+
+.exampleResults {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.exampleResult {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.exampleResult:hover {
+  background: rgba(108, 99, 255, 0.1);
+  transform: translateX(5px);
+}
+
+.examplePrice {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.exampleSeller {
+  color: var(--foreground);
+}
+
+.exampleRating {
+  color: var(--secondary);
+}
+
+.demoCta {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.ctaCard {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.ctaCard h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ctaCard p {
+  color: var(--foreground-muted);
+  margin-bottom: 2rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .demoStepContent {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .demoContent {
+    height: auto;
+    min-height: 700px;
+  }
+
+  .demoStepInfo {
+    align-items: center;
+    text-align: center;
+  }
+
+  .demoStepImage {
+    order: -1;
+  }
+
+  .demoStepImage img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .demoHeader h1 {
+    font-size: 2rem;
+  }
+
+  .demoHeader p {
+    font-size: 1rem;
+  }
+
+  .demoStepInfo h2 {
+    font-size: 1.8rem;
+  }
+
+  .demoStepInfo p {
+    font-size: 1rem;
+  }
+
+  .demoControls {
+    gap: 1rem;
+  }
+
+  .arrowButton {
+    width: 40px;
+    height: 40px;
+  }
+
+  .stepIndicator {
+    width: 10px;
+    height: 10px;
+  }
+}

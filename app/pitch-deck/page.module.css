@@ -1,0 +1,278 @@
+.pitchDeckPage {
+  padding: 120px 0 80px;
+  min-height: 100vh;
+  background: var(--background);
+}
+
+.pitchHeader {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  padding: 0 2rem;
+}
+
+.pitchHeader h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.pitchHeader p {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  color: var(--foreground-muted);
+}
+
+.slideContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.slideControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.arrowButton {
+  background: rgba(108, 99, 255, 0.1);
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--primary);
+  transition: all 0.3s ease;
+}
+
+.arrowButton:hover {
+  background: rgba(108, 99, 255, 0.2);
+  transform: scale(1.1);
+}
+
+.slideIndicators {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.slideIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.slideIndicator.active {
+  background: var(--primary);
+  transform: scale(1.3);
+}
+
+.slideContent {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slideCard {
+  height: 100%;
+  padding: 2.5rem;
+}
+
+.slideCardContent {
+  display: flex;
+  height: 100%;
+  gap: 3rem;
+}
+
+.slideInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.slideInfo h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.slideInfo h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: var(--foreground-muted);
+}
+
+.slideList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slideList li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.slideList li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.slideText {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.slideCta {
+  margin-top: auto;
+}
+
+.slideImageContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideImage {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.slideProgress {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.progressBar {
+  height: 4px;
+  background: var(--primary);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+  flex-grow: 1;
+}
+
+.slideCounter {
+  font-size: 0.9rem;
+  color: var(--foreground-muted);
+}
+
+.pitchCta {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.ctaCard {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.ctaCard h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ctaCard p {
+  color: var(--foreground-muted);
+  margin-bottom: 2rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .slideCardContent {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .slideContent {
+    height: auto;
+    min-height: 700px;
+  }
+  
+  .slideInfo {
+    order: 1;
+  }
+  
+  .slideImageContainer {
+    order: 0;
+  }
+  
+  .slideImage {
+    max-width: 80%;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .pitchHeader h1 {
+    font-size: 2rem;
+  }
+  
+  .pitchHeader p {
+    font-size: 1rem;
+  }
+  
+  .slideInfo h2 {
+    font-size: 1.8rem;
+  }
+  
+  .slideInfo h3 {
+    font-size: 1.2rem;
+  }
+  
+  .slideList li, .slideText {
+    font-size: 1rem;
+  }
+  
+  .slideControls {
+    gap: 1rem;
+  }
+  
+  .arrowButton {
+    width: 40px;
+    height: 40px;
+  }
+}

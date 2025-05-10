@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main Screen -->
+  <rect x="100" y="80" width="300" height="240" rx="20" fill="#1A1A2E"/>
+  <rect x="100" y="80" width="300" height="240" rx="20" stroke="#6C63FF" stroke-width="2"/>
+  
+  <!-- Screen Header -->
+  <text x="150" y="110" font-family="Arial" font-size="16" font-weight="bold" fill="white">Transaction Complete</text>
+  <text x="150" y="130" font-family="Arial" font-size="12" fill="#CCCCCC">MSI GF65 Gaming Laptop - $1,199</text>
+  
+  <!-- Success Message -->
+  <circle cx="250" cy="170" r="40" fill="#63FFDA" fill-opacity="0.1"/>
+  <path d="M235 170L245 180L265 160" stroke="#63FFDA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <text x="250" y="220" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Deal Confirmed!</text>
+  <text x="250" y="240" font-family="Arial" font-size="12" fill="#CCCCCC" text-anchor="middle">You saved $100 compared to average price</text>
+  
+  <!-- Seller Info -->
+  <rect x="150" y="260" width="200" height="40" rx="8" fill="#2A2A3E"/>
+  <circle cx="170" cy="280" r="15" fill="#63FFDA"/>
+  <text x="165" y="285" font-family="Arial" font-size="12" font-weight="bold" fill="#1A1A2E">GS</text>
+  <text x="195" y="275" font-family="Arial" font-size="14" font-weight="bold" fill="white">GameStation</text>
+  <text x="195" y="290" font-family="Arial" font-size="12" fill="#CCCCCC">Contact: (206) 555-1234</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="120" r="10" fill="#6C63FF" opacity="0.5"/>
+  <circle cx="420" cy="150" r="15" fill="#FF6584" opacity="0.5"/>
+  <circle cx="70" cy="280" r="8" fill="#63FFDA" opacity="0.5"/>
+  
+  <!-- User and Seller -->
+  <circle cx="70" cy="200" r="30" fill="#6C63FF"/>
+  <circle cx="70" cy="190" r="10" fill="#1A1A2E"/>
+  <path d="M50 220C50 210 60 205 70 205C80 205 90 210 90 220" fill="#1A1A2E"/>
+  
+  <circle cx="430" cy="200" r="30" fill="#63FFDA"/>
+  <circle cx="430" cy="190" r="10" fill="#1A1A2E"/>
+  <path d="M410 220C410 210 420 205 430 205C440 205 450 210 450 220" fill="#1A1A2E"/>
+  
+  <!-- Transaction Flow -->
+  <path d="M100 200 C 150 160, 350 160, 400 200" stroke="#6C63FF" stroke-width="2" stroke-dasharray="4 2"/>
+  <circle cx="250" cy="160" r="10" fill="#6C63FF">
+    <animate attributeName="cx" values="100;400;100" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <path d="M400 220 C 350 260, 150 260, 100 220" stroke="#63FFDA" stroke-width="2" stroke-dasharray="4 2"/>
+  <circle cx="250" cy="260" r="10" fill="#63FFDA">
+    <animate attributeName="cx" values="400;100;400" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Laptop Icon -->
+  <rect x="230" y="320" width="40" height="30" rx="3" fill="#63FFDA"/>
+  <rect x="220" y="350" width="60" height="5" rx="2" fill="#63FFDA"/>
+</svg>
