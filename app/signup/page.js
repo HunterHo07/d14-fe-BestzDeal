@@ -208,8 +208,8 @@ function SignupForm() {
   return (
     <div className={styles.signupPage}>
       <div className={styles.signupHeader}>
-        <h1 className="signup-title">Join <span className="gradient-text">BestzDeal</span></h1>
-        <p className="signup-subtitle">Create your account and start {userType === 'buyer' ? 'finding the best deals' : 'connecting with buyers'}</p>
+        <h1 className="signup-title">Post Your <span className="gradient-text">Request</span></h1>
+        <p className="signup-subtitle">{userType === 'buyer' ? 'Tell us what you\'re looking for and get the best deals' : 'Connect with buyers looking for your products'}</p>
       </div>
 
       <div className={styles.signupContainer}>
@@ -238,8 +238,8 @@ function SignupForm() {
                     <path d="M20 30L27 37L40 24" stroke="#63FFDA" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                <h2>Registration Successful!</h2>
-                <p>Thank you for joining BestzDeal. Your demo account has been created successfully.</p>
+                <h2>Request Submitted!</h2>
+                <p>Thank you for using BestzDeal. Your request has been submitted successfully.</p>
                 <div className={styles.successActions}>
                   <FuturisticButton href="/demo" size="large">
                     Try the Demo Now
@@ -317,12 +317,12 @@ function SignupForm() {
 
                 <div className={styles.formActions}>
                   <FuturisticButton type="submit" size="large" disabled={isSubmitting}>
-                    {isSubmitting ? 'Creating Account...' : 'Create Account'}
+                    {isSubmitting ? 'Processing Request...' : 'Post Your Request'}
                   </FuturisticButton>
                 </div>
 
                 <div className={styles.loginLink}>
-                  This is a demo - no real account is created
+                  This is a demo - your request will be processed instantly
                 </div>
               </form>
             )}

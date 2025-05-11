@@ -152,7 +152,7 @@ export default function Home() {
 
           <div className={`${styles.heroButtons} hero-buttons`}>
             <FuturisticButton href="/signup" size="large">
-              Get Started
+              Post Your Request
             </FuturisticButton>
 
             <FuturisticButton href="/demo" variant="secondary" size="large">
@@ -234,7 +234,7 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <FuturisticButton href="/signup" size="large">
-              Start Shopping Smarter
+              Post Your Request
             </FuturisticButton>
           </motion.div>
         </div>
@@ -326,7 +326,7 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
                 <FuturisticButton href="/signup" size="large">
-                  Sign Up Now
+                  Post Your Request Now
                 </FuturisticButton>
 
                 <FuturisticButton href="/demo" variant="secondary" size="large">

@@ -22,25 +22,25 @@ export default function DemoPage() {
     {
       title: "Post Your Request",
       description: "Describe what you want to buy, set your budget, and specify your location preferences.",
-      image: "images/demo-step1.svg",
+      image: "/d14-fe-BestzDeal/images/demo-step1.svg",
       color: "primary"
     },
     {
       title: "Sellers Respond",
       description: "Verified local and online sellers compete to offer you their best deals.",
-      image: "images/demo-step2.svg",
+      image: "/d14-fe-BestzDeal/images/demo-step2.svg",
       color: "secondary"
     },
     {
       title: "Compare Offers",
       description: "Review all offers based on price, seller ratings, and delivery options.",
-      image: "images/demo-step3.svg",
+      image: "/d14-fe-BestzDeal/images/demo-step3.svg",
       color: "accent"
     },
     {
       title: "Choose & Complete",
       description: "Select the best deal and finalize your purchase directly with the seller.",
-      image: "images/demo-step4.svg",
+      image: "/d14-fe-BestzDeal/images/demo-step4.svg",
       color: "primary"
     }
   ];
@@ -293,7 +293,7 @@ export default function DemoPage() {
                         href="/signup"
                         variant={currentStep === steps.length - 1 ? "primary" : "secondary"}
                       >
-                        {currentStep === steps.length - 1 ? "Try It Now" : "Next Step"}
+                        {currentStep === steps.length - 1 ? "Post Your Request" : "Next Step"}
                       </FuturisticButton>
                     )}
                   </div>
@@ -548,7 +548,7 @@ export default function DemoPage() {
           <h2>Ready to Find Your Best Deal?</h2>
           <p>Join thousands of smart shoppers who are saving time and money with BestzDeal.</p>
           <FuturisticButton href="/signup" size="large">
-            Sign Up Now
+            Post Your Request Now
           </FuturisticButton>
         </FuturisticCard>
       </div>

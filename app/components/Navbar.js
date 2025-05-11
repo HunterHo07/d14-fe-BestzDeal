@@ -93,7 +93,7 @@ const Navbar = () => {
             <Link href="/future-plan" className={styles.navLink}>Future Plan</Link>
           </motion.div>
           <motion.div variants={itemVariants}>
-            <Link href="/signup" className={styles.signupButton}>Sign Up Now</Link>
+            <Link href="/signup" className={styles.signupButton}>Post Your Request</Link>
           </motion.div>
         </motion.div>
       </div>
@@ -109,7 +109,7 @@ const Navbar = () => {
         <Link href="/pitch-deck" className={styles.mobileNavLink} onClick={() => setIsMenuOpen(false)}>Pitch Deck</Link>
         <Link href="/why-us" className={styles.mobileNavLink} onClick={() => setIsMenuOpen(false)}>Why Us</Link>
         <Link href="/future-plan" className={styles.mobileNavLink} onClick={() => setIsMenuOpen(false)}>Future Plan</Link>
-        <Link href="/signup" className={styles.mobileSignupButton} onClick={() => setIsMenuOpen(false)}>Sign Up Now</Link>
+        <Link href="/signup" className={styles.mobileSignupButton} onClick={() => setIsMenuOpen(false)}>Post Your Request</Link>
       </motion.div>
     </motion.nav>
   );

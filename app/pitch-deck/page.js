@@ -18,7 +18,7 @@ export default function PitchDeckPage() {
       title: "BestzDeal",
       subtitle: "The Reverse Marketplace",
       content: "Shop/seller come to find you — users post what they want, shops compete to offer best deals.",
-      image: "images/pitch-slide1.svg",
+      image: "/d14-fe-BestzDeal/images/pitch-slide1.svg",
     },
     {
       title: "The Problem",
@@ -29,7 +29,7 @@ export default function PitchDeckPage() {
         "Marketplace apps favor big sellers; local options hidden",
         "No reverse marketplace for buyer-driven demand"
       ],
-      image: "images/pitch-slide2.svg",
+      image: "/d14-fe-BestzDeal/images/pitch-slide2.svg",
     },
     {
       title: "The Solution",
@@ -40,7 +40,7 @@ export default function PitchDeckPage() {
         "Buyer reviews offers and accepts best deal",
         "Optional: rating, chat, secure payment system"
       ],
-      image: "images/pitch-slide3.svg",
+      image: "/d14-fe-BestzDeal/images/pitch-slide3.svg",
     },
     {
       title: "Market Opportunity",
@@ -51,7 +51,7 @@ export default function PitchDeckPage() {
         "31.7 million small businesses in US struggle with customer acquisition",
         "89% of small retailers would pay for qualified leads"
       ],
-      image: "images/pitch-slide4.svg",
+      image: "/d14-fe-BestzDeal/images/pitch-slide4.svg",
     },
     {
       title: "Business Model",
@@ -62,7 +62,7 @@ export default function PitchDeckPage() {
         "5% commission on transactions (lower than industry average)",
         "Featured listings and promotional opportunities"
       ],
-      image: "images/pitch-slide5.svg",
+      image: "/d14-fe-BestzDeal/images/pitch-slide5.svg",
     },
     {
       title: "Phased Rollout",
@@ -73,7 +73,7 @@ export default function PitchDeckPage() {
         "Phase 3: Secure in-app payment, delivery tracking, buyer protection",
         "Phase 4: Mobile app, subscription model for premium sellers, AI deal matcher"
       ],
-      image: "images/pitch-slide6.svg",
+      image: "/d14-fe-BestzDeal/images/pitch-slide6.svg",
     },
     {
       title: "The Team",
@@ -84,13 +84,13 @@ export default function PitchDeckPage() {
         "Sarah Johnson - COO (Ex-eBay, Operations expert)",
         "Michael Brown - CMO (Ex-Etsy, Digital marketing specialist)"
       ],
-      image: "images/pitch-slide7.svg",
+      image: "/d14-fe-BestzDeal/images/pitch-slide7.svg",
     },
     {
       title: "Join Us",
       subtitle: "Investment Opportunity",
       content: "We're raising $1.5M seed round to build the future of shopping. Be part of the revolution that puts buyers in control and helps small businesses thrive.",
-      image: "images/pitch-slide8.svg",
+      image: "/d14-fe-BestzDeal/images/pitch-slide8.svg",
     }
   ];
 
@@ -257,7 +257,7 @@ export default function PitchDeckPage() {
                         transition={{ delay: 0.6 }}
                       >
                         <FuturisticButton href="/signup">
-                          Get Started Now
+                          Post Your Request Now
                         </FuturisticButton>
                       </motion.div>
                     )}
@@ -296,7 +296,7 @@ export default function PitchDeckPage() {
           <p>Join us in building the future of e-commerce where buyers are in control.</p>
           <div className={styles.ctaButtons}>
             <FuturisticButton href="/signup" size="large">
-              Sign Up Now
+              Post Your Request Now
             </FuturisticButton>
             <FuturisticButton href="/demo" variant="secondary" size="large">
               See Demo

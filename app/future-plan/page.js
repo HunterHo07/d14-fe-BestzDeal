@@ -282,7 +282,7 @@ export default function FuturePlanPage() {
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
                 <FuturisticButton href="/signup" size="large">
-                  Join Our Journey
+                  Post Your Request Now
                 </FuturisticButton>
               </motion.div>
             </div>

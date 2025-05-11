@@ -62,7 +62,7 @@ const Footer = () => {
         <div className={styles.footerSection}>
           <motion.h3 variants={itemVariants} className={styles.footerHeading}>For Buyers</motion.h3>
           <motion.ul variants={itemVariants} className={styles.footerLinks}>
-            <li><Link href="/signup">Create Account</Link></li>
+            <li><Link href="/signup">Post Your Request</Link></li>
             <li><Link href="/#how-it-works">How It Works</Link></li>
             <li><Link href="/#faq">FAQ</Link></li>
             <li><Link href="/#testimonials">Success Stories</Link></li>
@@ -72,7 +72,7 @@ const Footer = () => {
         <div className={styles.footerSection}>
           <motion.h3 variants={itemVariants} className={styles.footerHeading}>For Sellers</motion.h3>
           <motion.ul variants={itemVariants} className={styles.footerLinks}>
-            <li><Link href="/signup?type=seller">Seller Registration</Link></li>
+            <li><Link href="/signup?type=seller">Become a Seller</Link></li>
             <li><Link href="/#seller-benefits">Benefits</Link></li>
             <li><Link href="/#pricing">Pricing</Link></li>
             <li><Link href="/#seller-faq">Seller FAQ</Link></li>
